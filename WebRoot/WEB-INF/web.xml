@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>moon_Girl</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <servlet-name>ProductAdd</servlet-name>
+    <servlet-class>com.bochy.servlet.ProductServletAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServletBrowse</servlet-name>
+    <servlet-class>com.bochy.servlet.ProductServletBrowse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServletFind</servlet-name>
+    <servlet-class>com.bochy.servlet.ProductServletFind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServletUpdate</servlet-name>
+    <servlet-class>com.bochy.servlet.ProductServletUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServletUpdate1</servlet-name>
+    <servlet-class>com.bochy.servlet.ProductServletUpdate1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServletDelete</servlet-name>
+    <servlet-class>com.bochy.servlet.ProductServletDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServletLogin</servlet-name>
+    <servlet-class>com.bochy.servlet.AdminServletLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerLogin</servlet-name>
+    <servlet-class>com.bochy.customerServlet.CustomerLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerServletRegister</servlet-name>
+    <servlet-class>com.bochy.customerServlet.CustomerServletRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrdersServletAll</servlet-name>
+    <servlet-class>com.bochy.customerServlet.OrdersServletAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServletOne</servlet-name>
+    <servlet-class>com.bochy.customerServlet.OrderServletOne</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CategoriesServletAll</servlet-name>
+    <servlet-class>com.bochy.customerServlet.CategoriesServletAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CategoryServletAdd</servlet-name>
+    <servlet-class>com.bochy.customerServlet.CategoryServletAdd</servlet-class>
+  </servlet>
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletFileUpLoad</servlet-name>
+    <servlet-class>com.wat.servlet.ServletFileUpLoad</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDownLoad</servlet-name>
+    <servlet-class>com.wat.servlet.ServletDownLoad</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServletUpdate</servlet-name>
+    <servlet-class>com.bochy.customerServlet.OrderServletUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CategoriesServletDelete</servlet-name>
+    <servlet-class>com.bochy.customerServlet.CategoriesServletDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingServletAdd</servlet-name>
+    <servlet-class>com.bochy.servlet.ShoppingServletAdd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServletFileUpLoad</servlet-name>
+    <url-pattern>/servletFileUpLoad</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDownLoad</servlet-name>
+    <url-pattern>/servletDownLoad</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>ProductAdd</servlet-name>
+    <url-pattern>/ProductAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServletBrowse</servlet-name>
+    <url-pattern>/ProductServletBrowse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServletFind</servlet-name>
+    <url-pattern>/ProductServletFind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServletUpdate</servlet-name>
+    <url-pattern>/ProductServletUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServletUpdate1</servlet-name>
+    <url-pattern>/ProductServletUpdate1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServletDelete</servlet-name>
+    <url-pattern>/ProductServletDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServletLogin</servlet-name>
+    <url-pattern>/AdminServletLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerLogin</servlet-name>
+    <url-pattern>/CustomerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerServletRegister</servlet-name>
+    <url-pattern>/CustomerServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrdersServletAll</servlet-name>
+    <url-pattern>/OrdersServletAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServletOne</servlet-name>
+    <url-pattern>/OrderServletOne</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoriesServletAll</servlet-name>
+    <url-pattern>/CategoriesServletAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryServletAdd</servlet-name>
+    <url-pattern>/CategoryServletAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServletUpdate</servlet-name>
+    <url-pattern>/OrderServletUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoriesServletDelete</servlet-name>
+    <url-pattern>/CategoriesServletDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingServletAdd</servlet-name>
+    <url-pattern>/ShoppingServletAdd</url-pattern>
+  </servlet-mapping>
+
+  
+  
+  
+  
+</web-app>
